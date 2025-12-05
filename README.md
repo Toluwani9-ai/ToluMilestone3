@@ -11,7 +11,7 @@ The goal of this milestone was to integrate a local database system into the Tra
 -	Room Database for local offline storage.
 -	DAO (Data Access Object) to handle database queries.
 -	Repository layer to separate data logic
--	ViewModel + Factory for UI-friendly data handling
+-	ViewModel and Factory for UI-friendly data handling
 -	Jetpack Compose for all screens
 -	MVVM architecture for clean structure and separation of concerns
 
@@ -25,5 +25,13 @@ The app now supports adding and displaying saved travel trips.
 -	 MVVM Architecture TripViewModel exposes live data for the UI, TripViewModelFactory provides dependencies correctly and Ensures configuration-change safety (e.g., rotation).
 
 -	Jetpack Compose Screens TripListScreen displays all saved trips in a clean, scrollable UI and AddTripScreen Users can enter Trip name, Destination , Date, Notes and 	Then now save the trip into the database MainActivity , Loads the entire Compose app and attaches the TripViewModel.
+
+Technologies I  Used
+-	Kotlin
+-	Jetpack Compose
+-	Room Database
+-	ViewModel and LiveData/State
+-	Material 3 Design
+-	MVVM Architecture Pattern
 
 
