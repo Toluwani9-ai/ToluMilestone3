@@ -34,4 +34,7 @@ Technologies I  Used
 -	Material 3 Design
 -	MVVM Architecture Pattern
 
+Conclusion
 
+Milestone 3 successfully transforms the app from a sensor-focused project into a fully functional journal system with persistent storage.
+my implementation follows best practices using Room, Repository, and MVVM, while maintaining a clean Jetpack Compose UI.
