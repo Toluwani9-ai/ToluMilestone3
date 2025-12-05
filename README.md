@@ -22,19 +22,8 @@ The app now supports adding and displaying saved travel trips.
 
 -	Repository Pattern Implemented TripRepository for clean data management., Keeps UI separate from database operations and Prevents direct DB access inside the UI.
 
--	3. MVVM Architecture TripViewModel exposes live data for the UI, TripViewModelFactory provides dependencies correctly and Ensures configuration-change safety (e.g., rotation).
+-	 MVVM Architecture TripViewModel exposes live data for the UI, TripViewModelFactory provides dependencies correctly and Ensures configuration-change safety (e.g., rotation).
 
-4. Jetpack Compose Screens
-	•	TripListScreen
-Displays all saved trips in a clean, scrollable UI.
-	•	AddTripScreen
-Users can enter:
-	•	Trip name
-	•	Destination
-	•	Date
-	•	Notes
-Then save the trip into the database.
-	•	MainActivity
-Loads the entire Compose app and attaches the TripViewModel.
+-	Jetpack Compose Screens TripListScreen displays all saved trips in a clean, scrollable UI and AddTripScreen Users can enter Trip name, Destination , Date, Notes and 	Then now save the trip into the database MainActivity , Loads the entire Compose app and attaches the TripViewModel.
 
 
