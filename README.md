@@ -18,8 +18,7 @@ The goal of this milestone was to integrate a local database system into the Tra
 
 The app now supports adding and displaying saved travel trips.
 
-		Features Implemented
-
+		Features
 -	 Room Database Integration: Created a Trip entity storing Title, Destination, Configured AppDatabase with Room to store data locally. and added TripDao with insert and query functions.
 
 -	Repository Pattern Implemented TripRepository for clean data management., Keeps UI separate from database operations and Prevents direct DB access inside the UI.
