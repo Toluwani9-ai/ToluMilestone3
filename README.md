@@ -8,8 +8,8 @@ The app now allows users to create, store, and view travel journal entries (Trip
 Overview of Milestone 3
 
 The goal of this milestone was to integrate a local database system into the Travel Journal application. My implementation uses:
-	-	Room Database for local offline storage
-	-	DAO (Data Access Object) to handle database queries
+	-Room Database for local offline storage
+	-DAO (Data Access Object) to handle database queries
 	-	Repository layer to separate data logic
 	-	ViewModel + Factory for UI-friendly data handling
 	-	Jetpack Compose for all screens
