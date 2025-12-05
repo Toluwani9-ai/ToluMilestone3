@@ -18,23 +18,13 @@ The goal of this milestone was to integrate a local database system into the Tra
 
 The app now supports adding and displaying saved travel trips.
 
-Features Implemented
+		Features Implemented
 
 -	 Room Database Integration: Created a Trip entity storing Title, Destination, Configured AppDatabase with Room to store data locally. and added TripDao with insert and query functions.
 
-2. Repository Pattern
-	•	Implemented TripRepository for clean data management.
-	•	Keeps UI separate from database operations.
-	•	Prevents direct DB access inside the UI.
+-	Repository Pattern Implemented TripRepository for clean data management., Keeps UI separate from database operations and Prevents direct DB access inside the UI.
 
-⸻
-
-3. MVVM Architecture
-	•	TripViewModel exposes live data for the UI.
-	•	TripViewModelFactory provides dependencies correctly.
-	•	Ensures configuration-change safety (e.g., rotation).
-
-⸻
+-	3. MVVM Architecture TripViewModel exposes live data for the UI, TripViewModelFactory provides dependencies correctly and Ensures configuration-change safety (e.g., rotation).
 
 4. Jetpack Compose Screens
 	•	TripListScreen
