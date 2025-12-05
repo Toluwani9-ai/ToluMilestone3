@@ -20,16 +20,7 @@ The app now supports adding and displaying saved travel trips.
 
 Features Implemented
 
-1. Room Database Integration
-	•	Created a Trip entity storing:
-	•	Title
-	•	Destination
-	•	Date
-	•	Description
-	•	Configured AppDatabase with Room to store data locally.
-	•	Added TripDao with insert and query functions.
-
-⸻
+-	 Room Database Integration: Created a Trip entity storing Title, Destination, Configured AppDatabase with Room to store data locally. and added TripDao with insert and query functions.
 
 2. Repository Pattern
 	•	Implemented TripRepository for clean data management.
